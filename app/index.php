@@ -13,6 +13,9 @@ echo "Test";
 <h1>Bienvenue</h1>
 
 <?php
+$variable = "Une variable";
+$Variable = "Une autre variable";
 
+echo $variable;
 
 ?>
