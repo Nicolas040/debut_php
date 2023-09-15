@@ -85,7 +85,8 @@ $data2 = "planète";
 $data3 = "Mars";
 $data4 = "les terriens";
 
-echo "<p>$data1, $data4. Je viens de la $data2 $data3.</p>"
+echo "<p>$data1, $data4. Je viens de la $data2 $data3.</p>";
+
 ?>
 
-<p><?= "$data1, $data4. Je viens de la $data2 $data3." ?></p>
+<p><?= "$data1, $data4. Je viens de la $data2 $data3." ?></p;>
