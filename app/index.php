@@ -30,7 +30,7 @@ echo $test;
 
 $camelCase = "Une variable en camel case";
 $snake_case = "Une variable en snake case";
-// $kebab-case = "Una variable en kebab case";
+// $kebab-case = "Une variable en kebab case";
 $PascalCase = "une variable en Pascal case";
 
 $fruit1 = "Pomme";
@@ -87,6 +87,20 @@ $data4 = "les terriens";
 
 echo "<p>$data1, $data4. Je viens de la $data2 $data3.</p>";
 
+$a = 2;
+$b = 5.3;
+//$calcul = $a-$b;
+//$calcul = $a**$b;
+$calcul = $b/$a;
+$calcul **= 2;
+echo "<p>$calcul</p>";
+
+// Créer deux variables: prix HT et TVA. Afficher le prix TTC
+$prix_ht = 34;
+$tva = 10;
+$prix_ttc = $prix_ht*(1+$tva/100);
+
+echo "<p>Prix TTC: $prix_ttc €</p>";
 ?>
 
-<p><?= "$data1, $data4. Je viens de la $data2 $data3." ?></p;>
+<p><?= "$data1, $data4. Je viens de la $data2 $data3." ?></p>
