@@ -100,6 +100,16 @@ $prix_ht = 34;
 $tva = 10;
 $prix_ttc = $prix_ht*(1+$tva/100);
 
+// Calculer l'âge d'une personne en fonction de son année de naissance.
+// En utilisant la fonction DATE
+
+function age($annee_naissance) {
+    return date("Y") - $annee_naissance;
+}
+$age = age(1972);
+echo "<p>L'âge de cette personne est de $age ans.</p>";
+
+
 echo "<p>Prix TTC: $prix_ttc €</p>";
 ?>
 
