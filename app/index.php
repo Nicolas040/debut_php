@@ -16,6 +16,9 @@ echo "Test";
 $variable = "Une variable";
 $Variable = "Une autre variable";
 
-echo $Variable;
+$nb = "5";
+echo $nb;
+printf($nb);
+var_dump($nb);
 
 ?>
