@@ -16,6 +16,6 @@ echo "Test";
 $variable = "Une variable";
 $Variable = "Une autre variable";
 
-echo $variable;
+echo $Variable;
 
 ?>
